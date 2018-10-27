@@ -117,7 +117,7 @@ open class LaWeáInterpreter {
         var commands = [Command]()
         var commandName = ""
         
-        var row = 0
+        var row = 1
         var col = 0
         
         var isComment = false

@@ -190,7 +190,7 @@ command_t *get_commands(const uint_least32_t *code, size_t code_length, int *com
     uint_least32_t cmd_name[8 * sizeof(uint_least32_t)] = {'\0'};
 
     int i = 0, j = -1;
-    long row = 0, col = 0;
+    long row = 1, col = 0;
 
     bool is_comment = false;
 
