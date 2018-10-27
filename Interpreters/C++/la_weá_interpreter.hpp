@@ -17,6 +17,9 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
+#ifndef LA_WEÁ_INTERPRETER_HPP
+#define LA_WEÁ_INTERPRETER_HPP
+
 #include <vector>
 #include <string>
 
@@ -145,3 +148,5 @@ class la_weá_interpreter {
 		 */
 		void exit_interpreter(const std::string &err_msg);
 };
+
+#endif

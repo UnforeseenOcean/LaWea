@@ -85,7 +85,7 @@ std::vector<la_weá_interpreter::command_t> la_weá_interpreter::get_commands(co
 	std::vector<command_t> commands;
 	std::u32string cmd_name = U"";
 
-	long row = 0, col = 0;
+	long row = 1, col = 0;
 	bool is_comment = false;
 
 	for (long i = 0; i <= code.length(); i++) {
