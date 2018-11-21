@@ -15,7 +15,7 @@ Command       | Description
 ```tula```    | If current cell value is not 0, moves the instruction pointer after the matching ```pichula``` command.
 ```pico```    | Moves the instruction pointer after the closest ```tula``` command, regardless of the current cell value.
 ```ctm```     | Prints current cell value to STDOUT as an ASCII character.
-```quéweá```  | Reads ASCII character from STDIN and stores it in the current cell.
+```quéweá```  | Reads ASCII character from STDOUT and stores it in the current cell.
 ```chúpala``` | Prints current cell value to STDIN as an integer.
 ```brígido``` | Reads integer from STDIN and stores it in the current cell.
 ```perkin```  | Copies current cell value if there is no copy; otherwise, pastes the copied value and resets the copy.
