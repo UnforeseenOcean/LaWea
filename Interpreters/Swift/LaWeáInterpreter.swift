@@ -60,7 +60,7 @@ open class LaWeáInterpreter {
         /// Reads ASCII character from STDIN and stores it in the current cell.
         case quéweá
         
-        /// Prints current cell value to STDIN as an integer.
+        /// Prints current cell value to STDOUT as an integer.
         case chúpala
         
         /// Reads integer from STDIN and stores it in the current cell.
